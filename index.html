@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html class="light" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Renee Coffee And More | Coffee shop di Madiun Premium &amp; Work-Friendly</title>
+<meta content="Renee Coffee And More adalah coffee shop di Madiun dengan suasana tenang, Wi-Fi cepat, dan biji kopi pilihan. Tempat kerja dan santai terbaik di Madiun." name="description"/>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-bright": "#fff8f5",
+                    "outline-variant": "#d2c4ba",
+                    "on-secondary-container": "#4e6d36",
+                    "surface-container-highest": "#fedcbe",
+                    "background": "#fff8f5",
+                    "on-primary-fixed-variant": "#59422c",
+                    "on-tertiary": "#ffffff",
+                    "surface-container-high": "#ffe3cc",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed-dim": "#aed18f",
+                    "on-secondary-fixed": "#0b2000",
+                    "surface": "#fff8f5",
+                    "secondary-fixed": "#c9eea9",
+                    "tertiary-container": "#3a3b2a",
+                    "on-primary": "#ffffff",
+                    "on-secondary-fixed-variant": "#314e1b",
+                    "tertiary-fixed-dim": "#c8c8b0",
+                    "surface-dim": "#f6d4b6",
+                    "on-background": "#291806",
+                    "outline": "#80756c",
+                    "primary-container": "#4b3621",
+                    "secondary": "#486730",
+                    "error-container": "#ffdad6",
+                    "tertiary-fixed": "#e4e4cc",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-primary": "#e1c1a4",
+                    "on-primary-fixed": "#291806",
+                    "surface-container-low": "#fff1e7",
+                    "on-tertiary-fixed": "#1b1d0e",
+                    "surface-tint": "#725a42",
+                    "on-tertiary-fixed-variant": "#474836",
+                    "secondary-container": "#c9eea9",
+                    "error": "#ba1a1a",
+                    "surface-variant": "#fedcbe",
+                    "inverse-on-surface": "#ffeee0",
+                    "on-tertiary-container": "#a4a58f",
+                    "inverse-surface": "#402c18",
+                    "surface-container": "#ffeada",
+                    "on-surface-variant": "#4e453d",
+                    "primary-fixed-dim": "#e1c1a4",
+                    "on-error-container": "#93000a",
+                    "on-primary-container": "#bd9f83",
+                    "on-surface": "#291806",
+                    "primary": "#33210d",
+                    "on-error": "#ffffff",
+                    "tertiary": "#242516",
+                    "primary-fixed": "#fedcbe"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.5rem",
+                    "xl": "1rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Manrope"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .no-line-rule { border: none !important; }
+        .tonal-shift { background-color: rgba(255, 248, 245, 0.8); }
+        .bg-gradient-primary { background: linear-gradient(145deg, #33210d 0%, #4b3621 100%); }
+    </style>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CafeOrCoffeeShop",
+      "name": "Renee Coffee And More",
+      "image": "https://renee-coffee.com/og-image.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Sumber Karya No.6c, Mojorejo",
+        "addressLocality": "Madiun",
+        "addressRegion": "Jawa Timur",
+        "postalCode": "63139",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -7.635,
+        "longitude": 111.52
+      },
+      "url": "https://renee-coffee.com",
+      "telephone": "+6281234567890",
+      "servesCuisine": "Coffee, Pastries",
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "08:00",
+          "closes": "23:00"
+        }
+      ]
+    }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface-bright text-on-surface font-body selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- TopAppBar -->
+<header class="sticky top-0 w-full z-50 bg-[#fff8f5]/80 dark:bg-[#33210d]/80 backdrop-blur-md">
+<nav class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#33210d] dark:text-[#ffeada]" data-icon="coffee">coffee</span>
+<h1 class="text-2xl font-bold tracking-tight text-[#33210d] dark:text-[#ffeada] font-headline">Renee Coffee</h1>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-[#486730] dark:text-[#c9eea9] font-bold hover:opacity-70 transition-opacity" href="#">Home</a>
+<a class="text-[#33210d] dark:text-[#ffeada] hover:opacity-70 transition-opacity" href="#menu">Menu</a>
+<a class="text-[#33210d] dark:text-[#ffeada] hover:opacity-70 transition-opacity" href="#about">Story</a>
+<a class="text-[#33210d] dark:text-[#ffeada] hover:opacity-70 transition-opacity" href="#location">Location</a>
+</div>
+<button class="material-symbols-outlined text-[#33210d] dark:text-[#ffeada] hover:opacity-70 transition-opacity scale-95 duration-200" data-icon="menu">menu</button>
+</nav>
+</header>
+<main>
+<!-- Hero Section: Asymmetric Editorial Layout -->
+<section class="relative overflow-hidden pt-12 pb-24 px-6 max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 z-10">
+<span class="inline-block px-4 py-1.5 mb-6 text-xs font-label tracking-widest uppercase bg-secondary-container text-on-secondary-container rounded-full">Madiun Exclusive</span>
+<h2 class="text-6xl md:text-8xl font-headline font-extrabold text-primary tracking-tighter leading-[0.9] mb-8">
+                        Coffee shop di Madiun
+                    </h2>
+<p class="text-xl md:text-2xl text-on-surface-variant max-w-xl mb-10 leading-relaxed">
+                        Premium &amp; Work-Friendly Space with Fast Wi-Fi. Temukan ketenangan dalam setiap seduhan kopi pilihan kami.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="flex items-center justify-center gap-2 px-8 py-4 bg-gradient-primary text-on-primary rounded-lg font-semibold shadow-2xl hover:scale-[1.02] transition-transform" href="https://wa.me/6281234567890">
+                            Hubungi via WhatsApp
+                        </a>
+<a class="flex items-center justify-center gap-2 px-8 py-4 bg-surface-container-high text-primary rounded-lg font-semibold border border-outline-variant/15 hover:bg-surface-container-highest transition-colors" href="#">
+<span class="material-symbols-outlined" data-icon="map">map</span>
+                            Lihat Rute di Google Maps
+                        </a>
+</div>
+</div>
+<div class="lg:col-span-5 relative">
+<div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl relative z-10 transform rotate-2">
+<img alt="Barista brewing coffee" class="w-full h-full object-cover" data-alt="Close-up of professional barista pouring steamed milk into a ceramic cup of coffee in a warm sunlit cafe interior" src="renee1.jpg"/>
+</div>
+<div class="absolute -top-12 -left-12 w-64 h-64 bg-secondary-container/30 rounded-full blur-3xl -z-0"></div>
+<div class="absolute -bottom-12 -right-12 w-80 h-80 bg-surface-container-highest/40 rounded-full blur-3xl -z-0"></div>
+</div>
+</div>
+</section>
+<!-- About Us Section -->
+<section class="bg-surface-container-low py-24 px-6" id="about">
+<div class="max-w-7xl mx-auto">
+<div class="mb-16 max-w-2xl">
+<h2 class="text-4xl font-headline font-bold text-primary mb-6">Cerita Rasa dari Madiun</h2>
+<p class="text-on-surface-variant leading-relaxed">Berawal dari kecintaan akan kopi berkualitas, Renee hadir untuk memberikan standar baru bagi pecinta kopi di Madiun. Kami memadukan teknik artisan dengan kenyamanan modern.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="aspect-square rounded-xl overflow-hidden group">
+<img alt="Coffee shop interior" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Spacious modern coffee shop interior in Madiun with wooden tables, green plants, and warm ambient lighting" src="renee2.jpg"/>
+</div>
+<div class="aspect-square rounded-xl overflow-hidden group md:translate-y-12">
+<img alt="Artisan coffee beans" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Assortment of high quality roasted coffee beans on a dark wooden surface with soft atmospheric highlights" src="renee3.jpg"/>
+</div>
+<div class="aspect-square rounded-xl overflow-hidden group">
+<img alt="Relaxing cafe corner" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Cozy corner of a coffee shop in Madiun featuring a plush velvet armchair and a small table with a steaming latte" src="renee4.jpg"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Products Section: Bento Grid -->
+<section class="py-24 px-6 max-w-7xl mx-auto" id="menu">
+<div class="flex justify-between items-end mb-12">
+<div>
+<h2 class="text-4xl font-headline font-bold text-primary mb-2">Pilihan Terbaik</h2>
+<p class="text-on-surface-variant">Signature brews dan kudapan premium kami.</p>
+</div>
+<button class="text-secondary font-semibold flex items-center gap-1 border-b-2 border-secondary/20 hover:border-secondary transition-colors">
+                    Lihat Semua Menu
+                </button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Large Item -->
+<div class="md:col-span-8 bg-surface-container rounded-xl p-8 flex flex-col md:flex-row gap-8 items-center overflow-hidden group">
+<div class="flex-1">
+<span class="text-secondary font-bold text-xs uppercase tracking-widest">Most Ordered</span>
+<h3 class="text-3xl font-headline font-bold text-primary mt-2 mb-4">Matcha Latte</h3>
+<p class="text-on-surface-variant mb-6"></p>
+<p class="text-2xl font-bold text-primary">Rp 20.000</p>
+</div>
+<div class="w-64 h-64 rounded-xl overflow-hidden rotate-3 group-hover:rotate-0 transition-transform">
+<img alt="Signature Latte" class="w-full h-full object-cover" data-alt="Overhead shot of a beautifully decorated cafe latte with intricate foam art in a ceramic cup" src="makanrenee2.jpg"/>
+</div>
+</div>
+<!-- Small Item 1 -->
+<div class="md:col-span-4 bg-surface-container-high rounded-xl p-6 flex flex-col justify-between group">
+<div class="aspect-[4/3] rounded-lg overflow-hidden mb-4">
+<img alt="Artisan Cold Brew" class="w-full h-full object-cover group-hover:scale-110 transition-transform" data-alt="Artisan cold brew coffee being poured into a glass filled with crystal clear ice cubes in a moody aesthetic" src="makanrenee1.jpg"/>
+</div>
+<div>
+<h3 class="text-xl font-bold text-primary">Bingso Biscoft</h3>
+<p class="text-on-surface-variant text-sm mb-4">Vanila based, Biscoff crumbs, Biscoff biscuit, Ice cream vanila</p>
+<p class="font-bold text-primary">Rp 32.000</p>
+</div>
+</div>
+<!-- Small Item 2 -->
+<div class="md:col-span-4 bg-surface-container-high rounded-xl p-6 flex flex-col justify-between group">
+<div class="aspect-[4/3] rounded-lg overflow-hidden mb-4">
+<img alt="Gourmet Pastry" class="w-full h-full object-cover group-hover:scale-110 transition-transform" data-alt="Selection of freshly baked gourmet French pastries including flaky croissants on a marble platter" src="makanreneerev.jpg"/>
+</div>
+<div>
+<h3 class="text-xl font-bold text-primary">Bingso Milo</h3>
+<p class="text-on-surface-variant text-sm mb-4">Milo based, Milo sereal, Ice Cream chocolate</p>
+<p class="font-bold text-primary">Rp 25.000</p>
+</div>
+</div>
+<!-- Mini Promo -->
+<div class="md:col-span-8 bg-secondary-container rounded-xl p-8 flex items-center justify-between overflow-hidden relative">
+<div class="z-10">
+<h3 class="text-2xl font-headline font-bold text-on-secondary-container">Work From Renee</h3>
+<p class="text-on-secondary-container/80 max-w-sm">Dapatkan diskon 10% untuk pemesanan kopi kedua selama hari kerja pukul 08:00 - 12:00.</p>
+</div>
+<span class="material-symbols-outlined text-9xl absolute -right-4 -bottom-4 text-on-secondary-container/10" data-icon="laptop_mac">laptop_mac</span>
+</div>
+</div>
+</section>
+<!-- USP Section: Minimal Icons -->
+<section class="bg-surface py-20 px-6 border-y border-outline-variant/10">
+<div class="max-w-7xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-12">
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-surface-container-low rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="wifi">wifi</span>
+</div>
+<h4 class="font-bold text-primary mb-2">Wi-Fi Cepat</h4>
+<p class="text-sm text-on-surface-variant">Koneksi stabil hingga 100Mbps untuk produktivitas Anda.</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-surface-container-low rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="local_parking">local_parking</span>
+</div>
+<h4 class="font-bold text-primary mb-2">Parkir Luas</h4>
+<p class="text-sm text-on-surface-variant">Akses mudah dan aman untuk kendaraan roda dua maupun empat.</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-surface-container-low rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="volume_off">volume_off</span>
+</div>
+<h4 class="font-bold text-primary mb-2">Suasana Tenang</h4>
+<p class="text-sm text-on-surface-variant">Desain interior yang dirancang khusus untuk kenyamanan bekerja.</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="w-16 h-16 bg-surface-container-low rounded-full flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-3xl" data-icon="eco">eco</span>
+</div>
+<h4 class="font-bold text-primary mb-2">Biji Kopi Pilihan</h4>
+<p class="text-sm text-on-surface-variant">Menggunakan biji kopi grade tertinggi dari petani lokal &amp; global.</p>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24 px-6 bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-4xl font-headline font-bold text-primary text-center mb-16">Apa Kata Mereka?</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-surface p-8 rounded-xl border border-outline-variant/10 shadow-sm">
+<div class="flex gap-1 text-secondary-fixed-dim mb-4">
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface italic mb-6">"Tempat favorit buat nugas di Madiun. Wi-Fi nya beneran kenceng dan kopinya gak pernah gagal."</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest"></div>
+<div>
+<p class="font-bold text-primary">Bagas</p>
+<p class="text-xs text-on-surface-variant">Freelancer</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface p-8 rounded-xl border border-outline-variant/10 shadow-sm">
+<div class="flex gap-1 text-secondary-fixed-dim mb-4">
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface italic mb-6">"Latte nya enak banget, pastry nya juga fresh. Vibesnya mahal tapi harganya masih masuk akal."</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest"></div>
+<div>
+<p class="font-bold text-primary">Rara</p>
+<p class="text-xs text-on-surface-variant">Mahasiswa</p>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface p-8 rounded-xl border border-outline-variant/10 shadow-sm">
+<div class="flex gap-1 text-secondary-fixed-dim mb-4">
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="text-on-surface italic mb-6">"Pelayanan ramah, tempat bersih, dan parkir motornya gampang. Cocok buat meeting santai."</p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest"></div>
+<div>
+<p class="font-bold text-primary">Ryan</p>
+<p class="text-xs text-on-surface-variant">Karyawan Swasta</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Location & Map Section -->
+<section class="py-24 px-6 max-w-7xl mx-auto" id="location">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+            <h2 class="text-4xl font-headline font-bold text-primary mb-6">Kunjungi Kami</h2>
+            <div class="space-y-6 mb-10">
+                <div class="flex gap-4">
+                    <span class="material-symbols-outlined text-secondary" data-icon="location_on">location_on</span>
+                    <div>
+                        <p class="font-bold text-primary">Alamat</p>
+                        <p class="text-on-surface-variant">Jl. Sumber Karya No.6c, Mojorejo, Kec. Taman, Kota Madiun, Jawa Timur 63139</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <span class="material-symbols-outlined text-secondary" data-icon="schedule">schedule</span>
+                    <div>
+                        <p class="font-bold text-primary">Jam Operasional</p>
+                        <p class="text-on-surface-variant">Setiap Hari: 07:30 - 21:00 WIB</p>
+                    </div>
+                </div>
+            </div>
+            <a class="inline-flex items-center gap-3 px-10 py-5 bg-[#25D366] text-white rounded-full font-bold shadow-xl hover:brightness-110 transition-all" href="https://wa.me/085168699969">
+                <span class="material-symbols-outlined" data-icon="chat" style="font-variation-settings: 'FILL' 1;">chat</span>
+                Hubungi Kami di WhatsApp
+            </a>
+        </div>
+
+        <div class="relative w-full h-[450px] rounded-2xl overflow-hidden shadow-2xl">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.5989349174001!2d111.53486260000001!3d-7.640521599999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79bf0004b79aa5%3A0xac9842dddfebea68!2sRenee%20Coffee%20And%20More!5e0!3m2!1sid!2sid!4v1776394234752!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
+<!-- FAQ Section -->
+<section class="py-24 px-6 bg-surface-container-low">
+<div class="max-w-3xl mx-auto">
+<h2 class="text-3xl font-headline font-bold text-primary text-center mb-12">Pertanyaan Populer</h2>
+<div class="space-y-4">
+<details class="group bg-white rounded-xl overflow-hidden shadow-sm" open="">
+<summary class="flex justify-between items-center p-6 cursor-pointer font-semibold text-primary list-none">
+                            Coffee shop di Madiun yang buka sampai malam?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant leading-relaxed">
+                            Renee Coffee And More buka setiap hari mulai pukul 08:00 hingga 23:00 WIB. Kami adalah salah satu destinasi coffee shop di Madiun yang cocok untuk menghabiskan waktu malam Anda dengan kopi premium.
+                        </div>
+</details>
+<details class="group bg-white rounded-xl overflow-hidden shadow-sm">
+<summary class="flex justify-between items-center p-6 cursor-pointer font-semibold text-primary list-none">
+                            Apakah Renee Coffee cocok untuk kerja (WFH)?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant">
+                            Sangat cocok! Kami menyediakan Wi-Fi berkecepatan tinggi, banyak titik stop kontak, dan suasana yang tenang khusus dirancang sebagai work-friendly space di Madiun.
+                        </div>
+</details>
+<details class="group bg-white rounded-xl overflow-hidden shadow-sm">
+<summary class="flex justify-between items-center p-6 cursor-pointer font-semibold text-primary list-none">
+                            Di mana lokasi Renee Coffee Madiun?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant">
+                            Kami berlokasi di Jl. Sumber Karya No.6c, Mojorejo, Kec. Taman, Kota Madiun. Lokasi kami sangat strategis dan mudah ditemukan via Google Maps.
+                        </div>
+</details>
+<details class="group bg-white rounded-xl overflow-hidden shadow-sm">
+<summary class="flex justify-between items-center p-6 cursor-pointer font-semibold text-primary list-none">
+                            Apakah tersedia menu non-kopi?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant">
+                            Ya, kami memiliki berbagai pilihan menu non-kopi seperti Matcha Latte, Artisan Tea, dan berbagai pilihan cokelat premium serta jus buah segar.
+                        </div>
+</details>
+<details class="group bg-white rounded-xl overflow-hidden shadow-sm">
+<summary class="flex justify-between items-center p-6 cursor-pointer font-semibold text-primary list-none">
+                            Apakah ada fasilitas parkir mobil?
+                            <span class="material-symbols-outlined group-open:rotate-180 transition-transform" data-icon="expand_more">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-on-surface-variant">
+                            Tentu! Renee Coffee memiliki area parkir yang luas dan aman untuk sepeda motor maupun mobil, sehingga Anda tidak perlu khawatir saat membawa kendaraan pribadi.
+                        </div>
+</details>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#ffeada] dark:bg-[#4b3621] w-full py-12 px-8">
+<div class="flex flex-col md:flex-row justify-between items-start gap-8 max-w-7xl mx-auto">
+<div class="max-w-sm">
+<h2 class="text-xl font-manrope font-bold text-[#33210d] dark:text-[#ffffff] mb-4">Renee Coffee</h2>
+<p class="font-inter text-sm leading-relaxed text-[#33210d] dark:text-[#ffffff] opacity-80">Menghadirkan pengalaman ngopi premium di jantung kota Madiun. Tempat terbaik untuk kerja, kumpul, dan inspirasi.</p>
+</div>
+<div class="flex flex-col gap-3">
+<span class="font-bold text-[#33210d] dark:text-[#ffffff] text-sm">Quick Links</span>
+<a class="font-inter text-sm leading-relaxed text-[#33210d] dark:text-[#ffffff] opacity-80 hover:text-[#486730] dark:hover:text-[#c9eea9] transition-colors underline decoration-2 underline-offset-4" href="#">Privacy Policy</a>
+<a class="font-inter text-sm leading-relaxed text-[#33210d] dark:text-[#ffffff] opacity-80 hover:text-[#486730] dark:hover:text-[#c9eea9] transition-colors" href="#">Terms of Service</a>
+<a class="font-inter text-sm leading-relaxed text-[#33210d] dark:text-[#ffffff] opacity-80 hover:text-[#486730] dark:hover:text-[#c9eea9] transition-colors" href="#">Wholesale</a>
+</div>
+<div class="flex flex-col gap-3">
+<span class="font-bold text-[#33210d] dark:text-[#ffffff] text-sm">Follow Us</span>
+<div class="flex gap-4">
+<a class="hover:text-[#486730] transition-colors text-[#33210d] dark:text-[#ffffff]" href="#">Instagram</a>
+<a class="hover:text-[#486730] transition-colors text-[#33210d] dark:text-[#ffffff]" href="#">TikTok</a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-[#33210d]/10 text-center md:text-left">
+<p class="font-inter text-sm leading-relaxed text-[#33210d] dark:text-[#ffffff] opacity-60">© 2024 Renee Coffee And More. Madiun Exclusive.</p>
+</div>
+</footer>
+<!-- BottomNavBar (Mobile) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pb-6 pt-3 bg-[#fff8f5]/90 dark:bg-[#33210d]/90 backdrop-blur-xl shadow-[0_-4px_24px_rgba(51,33,13,0.06)] rounded-t-3xl">
+<a class="flex flex-col items-center justify-center text-[#486730] dark:text-[#c9eea9] font-bold Active: scale-90 transition-transform" href="#">
+<span class="material-symbols-outlined" data-icon="home" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-inter text-[10px] uppercase tracking-widest mt-1">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#33210d]/60 dark:text-[#ffeada]/60 hover:bg-[#ffeada] dark:hover:bg-[#4b3621] rounded-full px-4 py-1" href="#menu">
+<span class="material-symbols-outlined" data-icon="local_cafe">local_cafe</span>
+<span class="font-inter text-[10px] uppercase tracking-widest mt-1">Menu</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#33210d]/60 dark:text-[#ffeada]/60 hover:bg-[#ffeada] dark:hover:bg-[#4b3621] rounded-full px-4 py-1" href="#location">
+<span class="material-symbols-outlined" data-icon="distance">distance</span>
+<span class="font-inter text-[10px] uppercase tracking-widest mt-1">Location</span>
+</a>
+<a class="flex flex-col items-center justify-center text-[#33210d]/60 dark:text-[#ffeada]/60 hover:bg-[#ffeada] dark:hover:bg-[#4b3621] rounded-full px-4 py-1" href="https://wa.me/6281234567890">
+<span class="material-symbols-outlined" data-icon="chat">chat</span>
+<span class="font-inter text-[10px] uppercase tracking-widest mt-1">Contact</span>
+</a>
+</nav>
+</body></html>
